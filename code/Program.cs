@@ -3,15 +3,10 @@
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 
-List<string> titulo = new List<string>();
-List<string> autor = new List<string>();
-List<string> genero = new List<string>();
-List<int> unidades = new List<int>();
-titulo.Add("1984");
-autor.Add("George Orwell");
-genero.Add("Romance distópico");
-unidades.Add(2);
-
+List<string> titulo = ["1984", "Orgulho e Preconceito", "O Pequeno Príncipe", "A sutil arte de ligar o f*oda-se"];
+List<string> autor = ["George Orwell", "Jane Austen", "Antoine de Saint-Exupéry", "Mark Manson"];
+List<string> genero = ["Romance distópico", "Romance", "Literatura infantil", "Autoajuda"];
+List<int> unidades = [2, 0, 1, 3];
 Console.Clear();
 int largura = 50;
 Console.ForegroundColor = ConsoleColor.Black;
@@ -57,38 +52,6 @@ if (nome == "admin")
                 Console.WriteLine("- Catálogo de livros -");
                 Console.ResetColor();
 
-                // Console.WriteLine("-".PadLeft(30,'-'));
-                // Console.WriteLine("1)\nLivro: 1984");
-                // Console.WriteLine("Autor: George Orwell");
-                // Console.WriteLine("Gênero: Romance distópico");
-                // Console.WriteLine("-");
-                // Console.BackgroundColor = ConsoleColor.DarkGreen;
-                // Console.WriteLine("Unidades disponíveis: 2");
-                // Console.ResetColor();
-                // Console.WriteLine("-".PadLeft(30,'-'));
-                // Console.WriteLine("2)\nLivro: Orgulho E Preconceito");
-                // Console.WriteLine("Autor: Jane Austen");
-                // Console.WriteLine("Gênero: Romance");
-                // Console.WriteLine("-");
-                // Console.BackgroundColor = ConsoleColor.DarkRed;
-                // Console.WriteLine("Unidades disponíveis: 0");
-                // Console.ResetColor();
-                // Console.WriteLine("-".PadLeft(30,'-'));
-                // Console.WriteLine("3)\nLivro: O Pequeno Príncipe");
-                // Console.WriteLine("Autor: Antoine de Saint-Exupéry");
-                // Console.WriteLine("Gênero: Literatura infantil");
-                // Console.WriteLine("-");
-                // Console.BackgroundColor = ConsoleColor.DarkGreen;
-                // Console.WriteLine("Unidades disponíveis: 1");
-                // Console.ResetColor();
-                // Console.WriteLine("-".PadLeft(30,'-'));
-                // Console.WriteLine("4)\nLivro: A sutil arte de ligar o f*da-se");
-                // Console.WriteLine("Autor: Mark Manson");
-                // Console.WriteLine("Gênero: Autoajuda");
-                // Console.WriteLine("-");
-                // Console.BackgroundColor = ConsoleColor.DarkGreen;
-                // Console.WriteLine("Unidades disponíveis: 3");
-                // Console.ResetColor();
                 for (int cont = 0; cont < titulo.Count(); cont ++)
                 {
                     Console.WriteLine("-".PadLeft(30,'-'));
@@ -211,4 +174,3 @@ else
 {
 
 }
-
