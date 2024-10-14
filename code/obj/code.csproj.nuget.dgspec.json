@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Documents\\Iolanda_Carvalho\\GerenciamentoBiblioteca\\code\\code.csproj": {}
+    "C:\\Users\\Fábio Pereira Gomes\\Meu Drive\\Iolanda\\Estudos\\repositorios_github\\GerenciamentoBiblioteca\\code\\code.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Documents\\Iolanda_Carvalho\\GerenciamentoBiblioteca\\code\\code.csproj": {
+    "C:\\Users\\Fábio Pereira Gomes\\Meu Drive\\Iolanda\\Estudos\\repositorios_github\\GerenciamentoBiblioteca\\code\\code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Documents\\Iolanda_Carvalho\\GerenciamentoBiblioteca\\code\\code.csproj",
+        "projectUniqueName": "C:\\Users\\Fábio Pereira Gomes\\Meu Drive\\Iolanda\\Estudos\\repositorios_github\\GerenciamentoBiblioteca\\code\\code.csproj",
         "projectName": "code",
-        "projectPath": "C:\\Users\\Aluno\\Documents\\Iolanda_Carvalho\\GerenciamentoBiblioteca\\code\\code.csproj",
-        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Documents\\Iolanda_Carvalho\\GerenciamentoBiblioteca\\code\\obj\\",
+        "projectPath": "C:\\Users\\Fábio Pereira Gomes\\Meu Drive\\Iolanda\\Estudos\\repositorios_github\\GerenciamentoBiblioteca\\code\\code.csproj",
+        "packagesPath": "C:\\Users\\Fábio Pereira Gomes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fábio Pereira Gomes\\Meu Drive\\Iolanda\\Estudos\\repositorios_github\\GerenciamentoBiblioteca\\code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Fábio Pereira Gomes\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
